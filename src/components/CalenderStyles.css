@@ -1,0 +1,12 @@
+.react-calendar__tile--highlight {
+  background: blue !important;
+  color: white !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  display: none;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+  display: none;
+}
