@@ -58,8 +58,13 @@ const LoginPage = () => {
             </div>
             <div className="w-1/2 flex relative">
                 <img src="/loginimg2.png" alt="Background" className="absolute w-full h-full object-cover" />
-                <div className="relative h-4/6 w-1/2 rounded-3xl border mt-40 ml-32 p-5 border-white bg-loginbox2 opacity-75 flex items-center justify-center">
-                    <img src="/loginimg1.png" alt="Background" className="absolute w-full h-full" />
+                <div className="relative h-fit min-h-4/6 w-1/2 rounded-3xl border mt-40 ml-32 p-5 border-white bg-loginbox2 bg-opacity-75 flex flex-col items-center justify-between gap-3">
+                    <div className="w-full">
+                        <h1 className='text-white font-extrabold text-5xl space-y-3'>Redefining <br/> Lab <br/>  Excellence</h1>
+                    </div>
+                    <div className='w-full h-full min-h-fit'>
+                        <img src="/loginimg1.png" alt="Background" className=" w-full h-full" />
+                    </div>
                 </div>
             </div>
         </div>
